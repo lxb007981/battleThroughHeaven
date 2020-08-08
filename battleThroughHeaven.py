@@ -1,5 +1,5 @@
 from os import system
-system('!nvidia-smi')
+system('watch -n 20 -d nvidia-smi')
 
 
 from transformers import AlbertTokenizer
