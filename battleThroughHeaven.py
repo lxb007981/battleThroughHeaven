@@ -2,8 +2,8 @@ from os import system
 system('watch -n 20 -d nvidia-smi')
 
 
-from transformers import AlbertTokenizer
-tokenizer = AlbertTokenizer('doupoModel.model')
+from transformers import BertTokenizer
+tokenizer = BertTokenizer('vocab_small.txt')
 
 from transformers import GPT2Config
 from transformers import GPT2LMHeadModel
